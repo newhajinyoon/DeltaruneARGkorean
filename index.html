@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang='ko'>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+  <meta charset='utf-8'>
+  <meta content='width=device-width' name='viewport'>
+  <title>홀리데이걸1225의 블로그에 오신것을 환영합니다!</title>
+  <link href='./assets/css/journal.css' rel='stylesheet' type='text/css'>
+  <style>
+    /* 트리 구조를 위한 추가 스타일 */
+    .tree-container {
+        line-height: 1.8;
+        font-family: "Georgia", serif;
+        font-size: 18px;
+    }
+    .tree-item {
+        margin-left: 20px;
+        position: relative;
+    }
+    .tree-item::before {
+        content: "├─";
+        margin-right: 10px;
+        color: #555;
+    }
+    .tree-item.last::before {
+        content: "└─";
+    }
+    .folder-name {
+        font-weight: bold;
+        color: #01620c;
+    }
+    .post-link {
+        color: #3832F0;
+        text-decoration: underline;
+    }
+    .post-link:hover {
+        color: #ff00ff;
+    }
+    .private-lock {
+        width: 14px;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+  </style>
+</head>
+<body class='body'>
+  <div class='wrapper'>
+    <h1 class='header'>
+      <img alt="홀리데이걸1225의 블로그에 오신것을 환영합니다!" class='welcome' src='./assets/images/welcome.png'>
+      <img alt='Happy Holidays' class='ornament' src='./assets/images/xmas.png'>
+    </h1>
+
+    <main>
+      <div class='post'>
+        <h2>📂 게시글 보관함</h2>
+        <p>내 블로그에 온 걸 환영해! 여기는 내가 수집한 게임 비밀이랑 버그, 그리고 일상 기록들이 모여 있는 곳이야. 천천히 구경해! ㅋㅋㅋ</p>
+        
+        <div class='tree-container'>
+            <div class='tree-item'>
+                <span class='folder-name'>catpetterz</span> : 
+                <a class='post-link' href='./catpetterz/index.htm'>내 최애 게임 '고양이 쓰담쓰담 2' 소개!</a>
+            </div>
+            
+            <div class='tree-item'>
+                <span class='folder-name'>bluecircle</span> : 
+                <a class='post-link' href='./bluecircle/index.htm'>메일로 받은 의문의 파란 동그라미 모드..;;</a>
+            </div>
+            
+            <div class='tree-item'>
+                <span class='folder-name'>egg</span> : 
+                <a class='post-link' href='./egg/index.htm'>절대 부화하지 않는 '스페셜 알' 발견!!</a>
+            </div>
+            
+            <div class='tree-item'>
+                <span class='folder-name'>icepalace_glaceir</span> : 
+                <a class='post-link' href='./icepalace_glaceir/index.htm'>드래곤 블레이저스 : 미로 속의 비밀 문</a>
+            </div>
+            
+            <div class='tree-item'>
+                <span class='folder-name'>rain</span> : 
+                <a class='post-link' href='./rain/index.htm'>비 오는 날의 추억 (feat. 고양이 쓰담쓰담 RPG)</a>
+            </div>
+            
+            <div class='tree-item'>
+                <span class='folder-name'>kris_dreemurr_kris</span> : 
+                <a class='post-link' href='./kris_dreemurr_kris/index.htm'>[비공개] 피아노 소리가 들리던 오후</a>
+                <img src='./assets/images/lock.png' class='private-lock' alt='private'>
+            </div>
+            
+            <div class='tree-item'>
+                <span class='folder-name'>the_n3w3st_g1rl_g1rl</span> : 
+                <a class='post-link' href='./the_n3w3st_g1rl_g1rl/index.htm'>[비공개] 오늘 학교에서 있었던 일 ㅋㅋㅋ</a>
+                <img src='./assets/images/lock.png' class='private-lock' alt='private'>
+            </div>
+            
+            <div class='tree-item last'>
+                <span class='folder-name'>code</span> : 
+                <a class='post-link' href='./code/index.htm'>드래곤 블레이저스 근황 (방명록 & 댓글창)</a>
+            </div>
+        </div>
+      </div>
+    </main>
+
+    <div class='post-footer'>
+      <strong>일러두기:</strong>
+      <span>
+        본 사이트는 <b>deltarune.com</b>의 ARG를 한국어로 번역한 아카이브이며, 번역자(진윤)의 주관적인 해석 및 현지화가 포함되어 있을 수 있습니다. <br>
+        현재 보고 계신 게시물 모음 페이지는 공식 사이트에는 존재하지 않으나, 포스트 간 원활한 이동을 위해 번역자가 별도로 제작한 페이지입니다.
+      </span>
+    </div>
+  </div>
+
+  <script src='./assets/javascripts/jquery.js'></script>
+  <script src='./assets/javascripts/reallyplayer.js'></script>
+</body>
+</html>
